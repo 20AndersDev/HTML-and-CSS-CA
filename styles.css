@@ -62,3 +62,16 @@ button:hover{
     margin-top: -5px;
 
 }
+
+.mp2{
+    padding-left: 10px;
+}
+
+.sec-mp{
+    display: flex;
+}
+
+.mp-list{
+    display: inline-block;
+    flex-direction: row;
+}
