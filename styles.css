@@ -1,69 +1,70 @@
-header{
-    background-color: #7569FF;
-    align-items: center;
-    display: inline-flex;
-    width: 100%;
-    position: relative;
-}
-
-a:link{
-    color: white;
-    text-decoration: none;
-}
-a:visited {
-    color: white;
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: none;
-  }
-
 .logo{
-    width: 300px;
+    width: 250px;
     height: 125px;
     padding: 10px;
 }
-
-li{
-    display: inline-block; 
-    padding: 10px;
-    position: relative;
-    right: 10px;
-    border-radius: 10px;
-}
-
 body{
     margin: 0px;
-    padding: 0px;
-    background-color:#0F0B1C ;
+}
+nav,#check-menu{
+display: none;
 }
 
-nav{
-    display: flex;
+nav button{
+    display: block;
+    color: white;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+    
+}
+
+header{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    background-color: #7569FF;
     width: 100%;
 }
 
-button{
-    background-color: #7569FF;
-    border-radius: 10px;
-    padding: 10px;
-    border: transparent;
+nav{
+    position: absolute;
+    top: 0px;
+    left: 30px;
 }
 
-button:hover{
-    background-color: #1A0F3F;
+#check-menu:checked ~ nav{
+    display: block;
 }
 
-.mp{
+
+@media (min-width:600px){
+    nav {
+        display: block;
+        position: static;
+        margin-left: 20px;
+    }
+
+    .hm{
+        display: none;
+        margin-left: 30px;
+    }
+
+    nav button{
+        display: inline-block;
+    }
+}
+
+
+.mp,.nr{
     background-color: #1A0F3F;
     display: flex;
     color: white;
-    margin-top: -5px;
+    margin-top: 5px;
 
 }
 
-.mp2{
+.mp2,.nr2{
     padding-left: 10px;
 }
 
@@ -74,4 +75,14 @@ button:hover{
 .mp-list{
     display: inline-block;
     flex-direction: row;
+}
+
+.movie{
+    height: 400px;
+    padding: 20px;
+}
+
+.mp-slide,.nr-slide{
+    display: flex;
+    overflow-y: hidden;
 }
