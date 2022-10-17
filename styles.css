@@ -88,6 +88,13 @@ a:active{
     margin-left: 20px;
     margin-right: 20px;
 }
+footer{
+    background-color: #7569FF;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
 
 
 
@@ -106,7 +113,7 @@ a:active{
 
     }
 
-    .mp-slide{
+    .mp-slide,.nr-slide{
         display: block;
     }
   
