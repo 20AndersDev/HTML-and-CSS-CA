@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
 .logo{
     width: 250px;
     height: 125px;
@@ -8,17 +15,20 @@ body{
     background-color: #0F0B1C;
 
 }
-
-nav button{
+button{
     display: block;
     color: white;
-    padding: 10px;
-    width: 130px;
+    padding: 15px;
+    width: 190px;
     margin-left: 20px;
-    background-color: #1A0F3F;
+    background-color: #7569FF;
+    border-radius: 20px;
+    border: none;
     
 }
+
 button:hover{
+    background-color: #1A0F3F;
     
 }
 
@@ -71,9 +81,10 @@ a:active{
 
 
 .mp-slide,.nr-slide{
-    display: flex;
+    display: inline-flex;
     overflow-x: auto;
     overflow-y: hidden;
+    justify-content:space-between;
 }
 
 .mp,.nr{
@@ -81,6 +92,10 @@ a:active{
     background-color: #1A0F3F;
     color: white;
     align-items: center;
+}
+
+.nr{
+    margin-top: 20px;
 }
 
 .mp2,.nr2{
@@ -93,7 +108,32 @@ footer{
     display: flex;
     justify-content: center;
     color: white;
+    margin-top: 50px;
+
 }
+
+div{
+    display: inline-block;
+    width: 270px;
+    margin-left: 60px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.name{
+    display: flex;
+    background-color: #7569FF;
+    justify-content: center;
+    width: 270px;
+    margin-left: 10px;
+    margin-top: -15px;
+
+}
+
+.movie-title{
+    color: white;
+}
+
 
 
 
@@ -108,13 +148,13 @@ footer{
         display: none;
     }
 
-    nav button{
+    button{
         display: inline-block;
 
     }
 
     .mp-slide,.nr-slide{
-        display: block;
+        display: inline-block;
     }
   
 }
@@ -124,6 +164,7 @@ footer{
 .movie{
     height: 400px;
     margin: 10px;
+    width: 270px;
 
 }
 
