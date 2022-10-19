@@ -85,7 +85,6 @@ a:active{
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
-    justify-content:space-between;
 }
 
 .mp,.nr{
@@ -114,11 +113,14 @@ footer{
 }
 
 
+div{
+    display: inline-block;
+}
 .name{
-    display: flex;
+    display:flex;
     background-color: #7569FF;
     justify-content: center;
-    width: 270px;
+    width: 300px;
     margin-left: 10px;
     margin-top: -15px;
 
@@ -129,6 +131,11 @@ footer{
 }
 
 
+.movie{
+    height: 400px;
+    margin: 10px;
+    width: 300px;
+}
 
 
 
@@ -148,8 +155,7 @@ footer{
     }
 
     .mp-slide,.nr-slide{
-        display: inline-flex;
-        overflow-x: auto;
+        display: inline-block;
 
     }
   
@@ -157,10 +163,6 @@ footer{
 
 
 
-.movie{
-    height: 400px;
-    margin: 10px;
-    width: 270px;
 
-}
+
 
