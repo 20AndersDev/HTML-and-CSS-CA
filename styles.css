@@ -13,6 +13,7 @@
 body{
     margin: 0px;
     background-color: #0F0B1C;
+    overflow-x: hidden;
 
 }
 button{
@@ -81,7 +82,7 @@ a:active{
 
 
 .mp-slide,.nr-slide{
-    display: inline-flex;
+    display: flex;
     overflow-x: auto;
     overflow-y: hidden;
     justify-content:space-between;
@@ -112,13 +113,6 @@ footer{
 
 }
 
-div{
-    display: inline-block;
-    width: 270px;
-    margin-left: 60px;
-    margin-top: 20px;
-    justify-content: center;
-}
 
 .name{
     display: flex;
@@ -154,7 +148,9 @@ div{
     }
 
     .mp-slide,.nr-slide{
-        display: inline-block;
+        display: inline-flex;
+        overflow-x: auto;
+
     }
   
 }
