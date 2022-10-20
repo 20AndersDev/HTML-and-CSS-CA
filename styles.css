@@ -5,32 +5,11 @@
     font-size: 20px;
 }
 
-.logo{
-    width: 250px;
-    height: 125px;
-    padding: 10px;
-}
 body{
     margin: 0px;
     background-color: #0F0B1C;
     overflow-x: hidden;
 
-}
-.list2{
-    display: block;
-    color: white;
-    padding: 15px;
-    width: 190px;
-    margin-left: 20px;
-    background-color: #7569FF;
-    border-radius: 20px;
-    border: none;
-    
-}
-
-.list2:hover{
-    background-color: #1A0F3F;
-    
 }
 
 header{
@@ -51,6 +30,58 @@ nav,#check-menu{
     display: none;
 }
 
+a{
+    text-decoration: none
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+    background-color: #1A0F3F;
+}
+a:active{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background-color: #7569FF;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 50px;
+
+}
+
+
+div{
+    display: inline-block;
+}
+
+.logo{
+    width: 250px;
+    height: 125px;
+    padding: 10px;
+}
+
+.list2{
+    display: block;
+    color: white;
+    padding: 15px;
+    width: 190px;
+    margin-left: 20px;
+    background-color: #7569FF;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+
+
+.list2:hover{
+    background-color: #1A0F3F;
+    
+}
     
 #check-menu:checked ~ nav{
     display: block;
@@ -68,24 +99,45 @@ nav,#check-menu{
     background-color: #1A0F3F;
 }
 
+.su-section {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 45%;
+    margin-left: -50px;
+    top: 45%;
+    margin-top: -50px;
+    
+ }
+
+#login-form{
+    display: inline-block;
+    background-color: #7569FF;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+.login-form-field,#li-submit{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: #1A0F3F;
+}
+
+#li-submit{
+    margin-left: 70px;
+}
+
+.su-pass1{
+    margin: 20px;
+}
+
 .hm{
     margin-left: 20px;
     font-size: 1.5em;
     color: white;
 }
-a{
-    text-decoration: none
-}
 
-a:visited{
-    text-decoration: none;
-    color: white;
-    background-color: #1A0F3F;
-}
-a:active{
-    text-decoration: none;
-    color: white;
-}
 
 
 .mp-slide,.nr-slide{
@@ -110,19 +162,7 @@ a:active{
     margin-left: 20px;
     margin-right: 20px;
 }
-footer{
-    background-color: #7569FF;
-    display: flex;
-    justify-content: center;
-    color: white;
-    margin-top: 50px;
 
-}
-
-
-div{
-    display: inline-block;
-}
 .name{
     display:flex;
     background-color: #7569FF;
