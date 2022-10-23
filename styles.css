@@ -170,9 +170,11 @@ footer{
 
 .su-form{
     color: whitesmoke;
+    display: flex;
 }
 
 .container{
+  display: inline-block;
   background-color: #7569FF;
   width: 100%;
   max-width: 500px;
@@ -186,6 +188,7 @@ footer{
 }
  
 .signup {
+    display: flex;
     width: 95%;
     padding: 15px;
     margin: 5px 0 22px 0;
