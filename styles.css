@@ -156,7 +156,7 @@ footer{
 
 /* Sign Up Page */
 .body-signup{
-    display: flex;
+    display: block;
     justify-content: center;
 }
 .su-logo{
@@ -164,27 +164,36 @@ footer{
     width: 100%;
     max-width: 500px;
     background-color: #7569FF;
+    border-radius: 15px;
     padding: 20px;
-    border-radius: 20px;
+    
+}
+
+.sec-forum{
+
+}
+
+.sec-su-logo{
+    display: flex;
+    justify-content: center;
 }
 
 .su-form{
     color: whitesmoke;
     display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 .container{
-  display: inline-block;
+  position: block;  
   background-color: #7569FF;
   width: 100%;
   max-width: 500px;
-  position: absolute;
   top: 50%;
-  margin-top: -120px;
-  padding: 20px;
+  padding: 20px; 
   border-radius: 20px;
-  justify-content: center;
-
 }
  
 .signup {
