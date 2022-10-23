@@ -54,7 +54,7 @@ footer{
 }
 
 
-div{
+.list{
     display: inline-block;
 }
 
@@ -99,37 +99,8 @@ div{
     background-color: #1A0F3F;
 }
 
-.su-section {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 45%;
-    margin-left: -50px;
-    top: 45%;
-    margin-top: -50px;
-    
- }
-
-#login-form{
-    display: inline-block;
-    background-color: #7569FF;
-    padding: 100px;
-    border-radius: 20px;
-}
-
-.login-form-field,#li-submit{
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 20px;
-    border-color: #1A0F3F;
-}
-
-#li-submit{
-    margin-left: 70px;
-}
-
-.su-pass1{
-    margin: 20px;
+.body-signup{
+    box-sizing: border-box;
 }
 
 .hm{
@@ -177,13 +148,71 @@ div{
     color: white;
 }
 
-
 .movie{
     height: 400px;
     margin: 10px;
     width: 300px;
 }
 
+/* Sign Up Page */
+.body-signup{
+    display: flex;
+    justify-content: center;
+}
+.su-logo{
+    display: flex;
+    width: 500px;
+    background-color: #7569FF;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.su-form{
+    color: whitesmoke;
+}
+
+.container{
+  background-color: #7569FF;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  margin-top: -120px;
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: center;
+
+}
+ 
+.signup {
+    width: 95%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 20px;
+  }
+
+.su-title{
+    display: flex;
+    justify-content: center;
+}
+
+ .signupbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 20px;
+  }
+  .su-h2{
+    display: flex;
+    justify-content: center;
+  }
 
 
 @media (min-width:800px){
