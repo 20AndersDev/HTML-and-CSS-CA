@@ -99,9 +99,6 @@ footer{
     background-color: #1A0F3F;
 }
 
-.body-signup{
-    box-sizing: border-box;
-}
 
 .hm{
     margin-left: 20px;
@@ -155,78 +152,85 @@ footer{
 }
 
 /* Sign Up Page */
-.body-signup{
-    display: block;
+
+.form-sec{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.bo-su{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-logo{
+    display: flex;
+    width:100%; 
     justify-content: center;
 }
 .su-logo{
-    display: flex;
-    width: 100%;
-    max-width: 500px;
+    padding: 10px;
     background-color: #7569FF;
-    border-radius: 15px;
-    padding: 20px;
-    
-}
-
-.sec-forum{
-
-}
-
-.sec-su-logo{
-    display: flex;
-    justify-content: center;
-}
-
-.su-form{
-    color: whitesmoke;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-top: 100px;
+    max-width: 600px;
+    width:90%;
+    margin: 20px;
+    border-radius: 20px;
 }
 
 .container{
-  position: block;  
-  background-color: #7569FF;
-  width: 100%;
-  max-width: 500px;
-  top: 50%;
-  padding: 20px; 
-  border-radius: 20px;
+    margin-top: 50px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #7569FF;
+    border-radius: 10px;
 }
- 
-.signup {
-    display: flex;
-    width: 95%;
+
+.signup{
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    width: 85%;
     padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-    border-radius: 20px;
-  }
+    border-radius: 10px;
+}
+
+.su-but{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.signupbtn{
+    background-color: rgba(111, 180, 111, 0.986);
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+    margin: 20px;
+    border: none
+}
+
+
+.h1-form{
+    display: flex;
+    justify-content: center;
+}
 
 .su-title{
-    display: flex;
-    justify-content: center;
 }
 
- .signupbtn {
-    background-color: #04AA6D;
+.su-title{
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-    border-radius: 20px;
-  }
-  .su-h2{
+}
+
+.su-h2{
     display: flex;
     justify-content: center;
-  }
+    padding: 20px
+
+}
+
 
 
 @media (min-width:800px){
