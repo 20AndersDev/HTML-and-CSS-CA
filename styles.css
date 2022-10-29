@@ -152,22 +152,34 @@ footer{
 
 /* About Page */
 
+
 .ab-container{
-    display: block;
-    width: 100%;
-    max-width: 500px;
+    display: flex;
+    width:100%;
+    flex-flow:row wrap;
 }
 
-.ab-div-img{
+.ab-div-logo{
     display: flex;
     width: 100%;
     max-width: 500px;
     background-color: #7569FF;
+    border-radius: 20px;
+    padding: 10px;
+    margin:30px;
     
 }
-.ab-img{
+.ab-logo{
     width: 100%;
 }
+
+.ab-pa{
+    max-width: 400px;
+    width: 100%;
+    margin-left: 20px;
+
+}
+
 
 
 /* Sign Up Page */
