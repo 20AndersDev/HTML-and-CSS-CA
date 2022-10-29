@@ -159,28 +159,39 @@ footer{
     flex-flow:row wrap;
 }
 
-.ab-div-logo{
+    .ab-div-logo{
+        display: flex;
+        width: 100%;
+        max-width: 500px;
+        background-color: #7569FF;
+        border-radius: 20px;
+        padding: 10px;
+        margin:30px;
+        
+    }
+    .ab-logo{
+        width: 100%;
+    }
+
+    .ab-pa{
+        max-width: 400px;
+        width: 100%;
+        margin-left: 20px;
+
+    }
+
+.sec-ab-img{
     display: flex;
     width: 100%;
-    max-width: 500px;
-    background-color: #7569FF;
+    margin: 30px;
+    flex-flow:row wrap;
+}
+
+.ab-img1,.ab-img2{
+    width: 90%;
+    max-width: 600px;
     border-radius: 20px;
-    padding: 10px;
-    margin:30px;
-    
 }
-.ab-logo{
-    width: 100%;
-}
-
-.ab-pa{
-    max-width: 400px;
-    width: 100%;
-    margin-left: 20px;
-
-}
-
-
 
 /* Sign Up Page */
 
