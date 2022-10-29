@@ -180,28 +180,33 @@ footer{
 
     }
 
-.sec-ab-img{
-    display: flex;
-    width: 100%;
-    margin: 30px;
-    flex-flow:row wrap;
-}
 
-.ab-img1,.ab-img2{
-    width: 90%;
-    max-width: 600px;
-    border-radius: 20px;
-}
+    .ma-ab{
+        overflow-x: hidden;
+    }
 
-/* Sign Up Page */
+    .sec-ab-img{
+        display: flex;
+        width: 100%;
+        margin: 30px;
+        flex-flow:row wrap;
+    }
 
-.form-sec{
+    .ab-img1,.ab-img2{
+        width: 90%;
+        max-width: 600px;
+        border-radius: 20px;
+    }
+
+/* Sign Up Page, login page and contact page */
+
+.form-sec,.form-con{
     display: flex;
     width: 100%;
     justify-content: center;
 }
 
-.bo-su{
+.bo-su,.bo-con{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -229,13 +234,17 @@ footer{
     border-radius: 10px;
 }
 
-.signup{
+.signup,.contact,.contact-msg{
     margin: auto;
     margin-top: 10px;
     display: block;
     width: 85%;
     padding: 15px;
     border-radius: 10px;
+}
+
+.contact-msg{
+    padding-bottom: 100px;
 }
 
 .su-but{
@@ -254,14 +263,17 @@ footer{
 }
 
 
-.h1-form{
-    display: flex;
+.h1-form,.con-h1-form{
+    display: block;
     justify-content: center;
 }
 
 
-.su-title{
+.su-title, .con-title,.con-par{
+    width: 100%;
+    display: flex;
     color: white;
+    justify-content:center;
 }
 
 .su-h2{
