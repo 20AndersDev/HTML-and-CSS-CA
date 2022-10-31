@@ -14,7 +14,7 @@ body{
 
 header{
     overflow: hidden;
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: inline-flex;
     align-items: center;
     background-color: #7569FF;
@@ -24,6 +24,7 @@ header{
 nav{
     position: fixed;
     top: 90px;
+    left: 5px;
 }
 
 nav,#check-menu{
@@ -76,7 +77,6 @@ footer{
     color: white;
     border-radius: 10px;
     margin-left: 20px;
-    margin-right: 20px;
     font-size: 25px;
 }
 
@@ -148,44 +148,44 @@ footer{
     justify-content: center;
 }
 
-    .ab-div-logo{
-        display: flex;
-        width: 100%;
-        max-width: 500px;
-        background-color: #7569FF;
-        border-radius: 20px;
-        padding: 10px;
-        margin:30px;
-        
-    }
-    .ab-logo{
-        width: 100%;
-    }
+.ab-div-logo{
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    background-color: #7569FF;
+    border-radius: 20px;
+    padding: 10px;
+    margin:30px;
+    
+}
+.ab-logo{
+    width: 100%;
+}
 
-    .ab-pa{
-        max-width: 400px;
-        width: 100%;
-        margin-left: 20px;
+.ab-pa{
+    max-width: 400px;
+    width: 100%;
+    margin-left: 20px;
 
-    }
+}
 
 
-    .ma-ab{
-        overflow-x: hidden;
-    }
+.ma-ab{
+    overflow-x: hidden;
+}
 
-    .sec-ab-img{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        flex-flow:row wrap;
-    }
+.sec-ab-img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-flow:row wrap;
+}
 
-    .ab-img1,.ab-img2{
-        width: 45%;
-        max-width: 600px;
-        border-radius: 20px;
-    }
+.ab-img1,.ab-img2{
+    width: 45%;
+    max-width: 600px;
+    border-radius: 20px;
+}
 
 /* Sign Up Page, login page and contact page */
 
@@ -271,6 +271,30 @@ footer{
     padding: 20px
 
 }
+
+/* List of videos */
+.genre{
+display: block;
+color: white;
+padding: 10px;
+width: 140px;
+margin-left: 20px;
+background-color:#7569FF;
+border-radius: 20px;
+border: none;
+}
+
+.gen-ul{
+    position: fixed;
+    display: none;
+    background-color: #4a3ddb;
+    
+}
+
+.genre:active ~ .gen-ul{
+    display: block;
+}
+
 
 
 
