@@ -273,8 +273,9 @@ footer{
 }
 
 /* List of videos */
-.genre{
-display: block;
+.gm{
+justify-content: center;
+display: flex;
 color: white;
 padding: 10px;
 width: 140px;
@@ -291,7 +292,11 @@ border: none;
     
 }
 
-.genre:active ~ .gen-ul{
+#genre-menu{
+    display: none;
+}
+
+#genre-menu:checked ~ .gen-ul{
     display: block;
 }
 
