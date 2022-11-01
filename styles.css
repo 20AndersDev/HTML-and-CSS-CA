@@ -3,9 +3,11 @@
 *{
     font-family: 'Oswald', sans-serif;
     color: white
+
 }
 
 body{
+    height: 1500px;
     margin: 0px;
     background-color: #0F0B1C;
     overflow-x: hidden;
@@ -41,17 +43,35 @@ a:active{
 }
 
 footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #7569FF;
     display: flex;
     justify-content: center;
     color: white;
-    margin-top: 300px;
 
 }
 
 
 .list{
     display: inline-block;
+}
+
+.list2{
+    display: block;
+    color: white;
+    padding: 15px;
+    width: 190px;
+    margin-left: 20px;
+    background-color:hsl(244, 51%, 16%);
+    border-radius: 20px;
+    border: none;
+    
+}
+
+.list2:hover{
+    cursor: pointer;
 }
 
 .logo{
@@ -63,10 +83,6 @@ footer{
 
 
 
-.list2:hover{
-    background-color: #1A0F3F;
-    
-}
     
 #check-menu:checked ~ nav{
     display: block;
@@ -99,6 +115,8 @@ footer{
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .mp,.nr{
@@ -326,7 +344,6 @@ border: none;
 
     .list2{
         display: inline-block;
-        background-color: #0F0B1C;
 
     }
 
@@ -337,17 +354,7 @@ border: none;
   
 }
 
-.list2{
-    display: block;
-    color: white;
-    padding: 15px;
-    width: 190px;
-    margin-left: 20px;
-    background-color:#7569FF;
-    border-radius: 20px;
-    border: none;
-    
-}
+
 
 
 
