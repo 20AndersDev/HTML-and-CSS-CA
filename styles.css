@@ -330,6 +330,38 @@ border: none;
 }
 
 
+.pp-container{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.prod-img{
+    width: 400px;
+}
+
+.p-img{
+    width: 100%;
+}
+
+.prod-info{
+    max-width: 500px;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+.prod-buy{
+    justify-content: center;
+    display: flex;
+    width: 200px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #4B945F;
+    margin-left: 30%;
+    margin-top: 30px;
+
+}
 
 
 @media (min-width:950px){
