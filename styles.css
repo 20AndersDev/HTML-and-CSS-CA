@@ -159,7 +159,7 @@ footer{
 /* About Page */
 
 
-.ab-container{
+.ab-container,{
     display: flex;
     width:100%;
     flex-flow:row wrap;
@@ -330,37 +330,44 @@ border: none;
 }
 
 
-.pp-container{
-    margin-top: 20px;
+
+.prod-img{
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
 }
 
-.prod-img{
-    width: 400px;
+.p-img{;
+    width: 80%;
+    max-width:550px
 }
 
-.p-img{
-    width: 100%;
+
+.pp-container{
+   justify-content: center;
+   display: flex;
+   flex-flow: row wrap; 
+   width: 100%;
+   margin-top: 100px;
+
 }
 
 .prod-info{
-    max-width: 500px;
-    margin-left: 50px;
-    justify-content: center;
+    width: 90%;
+    max-width: 400px;
 }
 
-.prod-buy{
-    justify-content: center;
-    display: flex;
-    width: 200px;
-    padding: 15px;
-    border-radius: 20px;
-    background-color: #4B945F;
-    margin-left: 30%;
-    margin-top: 30px;
 
+.div-buy{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.but-buy{
+    justify-content: center;
+    width: 70%;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 
