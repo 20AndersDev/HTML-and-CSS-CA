@@ -473,6 +473,24 @@ border: none;
  margin-top: 30px;
 }
 
+/* account page*/
+
+.ac-h1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+
+.ac-settings{
+    justify-content: center;
+    display: block;
+    width: 100%;
+}
+.ac-settings2{
+    max-width: 300px;
+
+}
 
 @media (min-width:1300px){
     nav {
