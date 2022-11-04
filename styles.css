@@ -6,7 +6,7 @@
 }
 
 body{
-    height: 1500px;
+    height: 1200px;
     margin: 0px;
     background-color: #0F0B1C;
     overflow-x: hidden;
@@ -368,7 +368,7 @@ border: none;
 
 
 
-.but-buy{
+.but-buy,.ac-edit{
     justify-content: center;
     width: 100%;
     max-width: 300px;
@@ -475,6 +475,12 @@ border: none;
 
 /* account page*/
 
+.ac-container{
+    display: block;
+    width: 100%;
+
+}
+
 .ac-h1{
     display: flex;
     justify-content: center;
@@ -482,15 +488,43 @@ border: none;
     color: white;
 }
 
-.ac-settings{
+    
+
+.ac-s,.ac-but{
     justify-content: center;
-    display: block;
+    display: flex;
     width: 100%;
 }
 .ac-settings2{
-    max-width: 300px;
+    padding: 15px;
+    margin: 20px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.as-div-icon{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    border-color: #4B945F;
+    
 
 }
+
+#ac-icon{
+    color: white;
+    font-size: 100px;
+    border-style: solid;
+    padding: 50px;
+    border-radius: 100%;
+    background-color: #7569FF;
+    
+}
+
+.ac-but{
+    margin-top: 40px;
+}
+
 
 @media (min-width:1300px){
     nav {
