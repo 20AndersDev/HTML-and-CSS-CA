@@ -2,7 +2,7 @@
 
 *{
     font-family: 'Oswald', sans-serif;
-
+    color: white;
 }
 
 body{
@@ -39,6 +39,10 @@ a{
 a:active{
     text-decoration: none;
     color: white;
+}
+
+a:hover{
+    cursor: pointer;
 }
 
 footer{
@@ -377,6 +381,7 @@ border: none;
     background-color:#4B945F;
     color: white;
     padding: 20px;
+    cursor: pointer;
 }
 
 
@@ -487,9 +492,8 @@ border: none;
     justify-content: center;
     width: 100%;
     color: white;
-}
-
     
+}
 
 .ac-s,.ac-but{
     justify-content: center;
@@ -501,6 +505,11 @@ border: none;
     margin: 20px;
     width: 50%;
     border-radius: 10px;
+    color: black;
+}
+
+.ac-settings2::placeholder{
+    color: black;
 }
 
 .as-div-icon{
@@ -508,8 +517,6 @@ border: none;
     display: flex;
     width: 100%;
     border-color: #4B945F;
-    
-
 }
 
 #ac-icon{
@@ -524,6 +531,35 @@ border: none;
 
 .ac-but{
     margin-top: 40px;
+}
+
+
+/*check out success page */
+
+.cs-div-h1,.cs-div-h2,.cs-div-but{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cs-container{
+    margin-top: 15%;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    background-color: #1A0F3F;
+}
+.cs-but-complete{
+    width: 100%;
+    max-width: 500px;
+    background-color:#4B945F ;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.cs-p{
+    text-align:center;
+    width: 70%;
 }
 
 
