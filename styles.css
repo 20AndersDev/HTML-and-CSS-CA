@@ -104,6 +104,10 @@ footer{
     background-color: #1A0F3F;
 }
 
+.main-home{
+    padding-bottom: 150px;
+}
+
 
 .hm{
     display: flex;
