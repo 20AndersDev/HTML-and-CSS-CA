@@ -125,6 +125,7 @@ footer{
     overflow-y: hidden;
     margin-bottom: 30px;
     margin-top: 30px;
+    width: 100%;
     
 }
 
@@ -291,6 +292,7 @@ footer{
 .h1-form,.con-h1-form{
     display: block;
     justify-content: center;
+    text-align: center;
 }
 
 
