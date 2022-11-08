@@ -22,12 +22,6 @@ header{
     width: 100%;
 }
 
-nav{
-    position: fixed;
-    top: 90px;
-    left: 5px;
-}
-
 nav,#check-menu{
     display: none;
 }
@@ -120,9 +114,7 @@ footer{
 
 
 .mp-slide,.nr-slide{
-    display: flex;
-    overflow-x: auto;
-    overflow-y: hidden;
+    display:block;
     margin-bottom: 30px;
     margin-top: 30px;
     width: 100%;
@@ -588,11 +580,30 @@ border: none;
 
     }
 
+    
+  
+}
+
+@media (max-width:1300px){
+    nav{
+        width: 100%;
+        margin-top: 60px;
+        left: 0px;
+        position: absolute;
+        top: 90px;
+    }
+    .list2{
+        width: 100%;
+        border-radius: 0%;
+        margin-left: 0px;
+        background-color: #1A0F3F
+    }
     .mp-slide,.nr-slide{
-        display: inline-block;
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
 
     }
-  
 }
 
 
