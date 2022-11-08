@@ -298,8 +298,14 @@ footer{
 .su-h2{
     display: flex;
     justify-content: center;
-    padding: 20px
+    text-align:center;
+    width: 100%;
+}
 
+.li-promt{
+    display: flex;
+    text-align: center;
+    width: 90%;
 }
 
 /* List of videos */
@@ -519,6 +525,9 @@ border: none;
     display: flex;
     width: 100%;
     border-color: #4B945F;
+}
+.ab-body{
+    margin-bottom: 300px;
 }
 
 #ac-icon{
