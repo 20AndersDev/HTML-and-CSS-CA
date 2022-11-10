@@ -214,23 +214,16 @@ footer{
 
 /* Sign Up Page, login page and contact page */
 
-.form-sec,.form-con{
+.form-sec,.form-con,.d-logo{
     display: flex;
     width: 100%;
     justify-content: center;
 }
 
-.bo-su,.bo-con{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.su-body,.bo-su{
+    overflow-y: hidden;
 }
 
-.d-logo{
-    display: flex;
-    width:100%; 
-    justify-content: center;
-}
 .su-logo{
     padding: 10px;
     background-color: #7569FF;
@@ -241,11 +234,12 @@ footer{
 }
 
 .container{
-    margin-top: 50px;
+    margin-top: 20px;
     width: 80%;
     max-width: 600px;
     background-color: #7569FF;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .signup,.contact,.contact-msg{
@@ -253,7 +247,7 @@ footer{
     margin-top: 10px;
     display: block;
     width: 85%;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
 }
 
@@ -298,14 +292,13 @@ footer{
 .su-h2{
     display: flex;
     justify-content: center;
-    text-align:center;
     width: 100%;
+    padding-bottom: 20px; 
 }
 
 .li-promt{
     display: flex;
     text-align: center;
-    width: 90%;
 }
 
 /* List of videos */
@@ -612,6 +605,11 @@ border: none;
         overflow-x: auto;
         overflow-y: hidden;
 
+    }
+
+    .su-body,.bo-su{
+        overflow-y: auto;
+        height: 800px
     }
 }
 
