@@ -3,6 +3,7 @@
 *{
     font-family: 'Oswald', sans-serif;
     color: white;
+    box-sizing: border-box;
 }
 
 body{
@@ -214,39 +215,51 @@ footer{
 
 /* Sign Up Page, login page and contact page */
 
-.form-sec,.form-con,.d-logo{
+.login-div-logo{
     display: flex;
-    width: 100%;
     justify-content: center;
+    width: 100%;
 }
-
-.su-body,.bo-su{
-    overflow-y: hidden;
-}
-
 .su-logo{
-    padding: 10px;
     background-color: #7569FF;
-    max-width: 600px;
-    width:90%;
-    margin: 20px;
+    width: 100%;
+    max-width: 400px;
     border-radius: 20px;
+    padding: 10px;
 }
 
+.form-sec{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 .container{
-    margin-top: 20px;
-    width: 80%;
     max-width: 600px;
+    width: 100%;
     background-color: #7569FF;
     border-radius: 10px;
-    padding: 10px;
+    margin: 20px;
 }
 
+.login-div-input{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.login-input{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+
 .signup,.contact,.contact-msg{
-    margin: auto;
     margin-top: 10px;
     display: block;
-    width: 85%;
+    width: 100%;
     padding: 10px;
     border-radius: 10px;
 }
@@ -259,47 +272,36 @@ footer{
     color: #0F0B1C;
 }
 
-.su-but{
-    margin-top: 10px;
+.su-but,.login-div-button{
     display: flex;
     justify-content: center;
+    width: 100%;
+    margin-top: 10px;
 }
 
-.signupbtn{
+.signupbtn,.login-button{
     background-color: rgba(111, 180, 111, 0.986);
     border-radius: 10px;
-    width: 50%;
     padding: 10px;
-    margin: 20px;
+    max-width: 200px;
+    width: 100%;
     border: none
 }
 
-
-.h1-form,.con-h1-form{
-    display: block;
-    justify-content: center;
-    text-align: center;
-}
-
-
-.su-title, .con-title,.con-par{
+.su-title,.con-title,.con-par{
     width: 100%;
     display: flex;
     color: white;
     justify-content:center;
 }
 
-.su-h2{
+.login-div-h3{
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-bottom: 20px; 
 }
 
-.li-promt{
-    display: flex;
-    text-align: center;
-}
+
 
 /* List of videos */
 .gm{
@@ -339,6 +341,7 @@ border: none;
     padding: 15px;
 
 }
+
 
 /* product page info*/
 
