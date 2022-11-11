@@ -7,8 +7,8 @@
 }
 
 body{
-    height: 1200px;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
     background-color: #0F0B1C;
     overflow-x: hidden;
 
@@ -40,15 +40,23 @@ a:hover{
     cursor: pointer;
 }
 
+main{
+    min-height: 100vh;
+    margin-bottom: -50px;
+}
+
 footer{
-    position: fixed;
-    bottom: 0;
+    height: 50px;
     width: 100%;
+    bottom: 0;
     background-color: #7569FF;
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
-
+}
+.push{
+    height: 50px;
 }
 
 
@@ -215,93 +223,80 @@ footer{
 
 /* Sign Up Page, login page and contact page */
 
-.login-div-logo{
+.login-div-logo,.signup-div-logo,.login-section,.login-div-input,.login-div-h3,.signup-form-section,.signup-div-button,.signup-div-h3,.login-div-h3,.contact-section,.su-but{
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-top:10px;
 }
-.su-logo{
+
+
+.signup-logo{
     background-color: #7569FF;
-    width: 100%;
+    width: 90%;
     max-width: 400px;
     border-radius: 20px;
     padding: 10px;
 }
-
-.form-sec{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-.container{
+.signup-container,.login-container,.contact-container{
     max-width: 600px;
     width: 100%;
     background-color: #7569FF;
     border-radius: 10px;
     margin: 20px;
+    padding-bottom: 20px;
 }
 
-.login-div-input{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
 
-.login-input{
+.login-input,.signup-input,.contact{
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     border-radius: 10px;
     padding: 10px;
     margin: 5px;
+    color: #0F0B1C;
 }
 
 
-.signup,.contact,.contact-msg{
-    margin-top: 10px;
-    display: block;
+.contact-message{
     width: 100%;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.contact-msg{
+    max-width: 400px;
     padding-bottom: 100px;
+    border-radius: 10px;
+    margin: 5px;
+    color: #0F0B1C;
 }
 
 .contact,.contact-msg::placeholder{
     color: #0F0B1C;
 }
 
-.su-but,.login-div-button{
+.signup-div-input,.login-div-button,.contact-div-input{
     display: flex;
     justify-content: center;
     width: 100%;
     margin-top: 10px;
 }
 
-.signupbtn,.login-button{
+.signup-button,.login-button{
     background-color: rgba(111, 180, 111, 0.986);
     border-radius: 10px;
     padding: 10px;
     max-width: 200px;
     width: 100%;
-    border: none
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-.su-title,.con-title,.con-par{
+.signup-h1,.login-h1,.con-title,.con-par,.signup-div-h3,.login-h3{
     width: 100%;
     display: flex;
     color: white;
     justify-content:center;
+    text-align: center;
 }
-
-.login-div-h3{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-
 
 /* List of videos */
 .gm{
@@ -319,7 +314,7 @@ border: none;
     position: absolute;
     display: none;
     left: 70px;
-    top: 185px
+    top: 165px
 
 }
 
@@ -394,6 +389,9 @@ border: none;
 .co-container{
     background-color: #1A0F3F;
     padding-bottom: 50px;
+    color: white;
+    margin-top: 40px;
+
 }
 
 .co-head{
@@ -441,12 +439,6 @@ border: none;
 .co-p{
     width: 100%;
     max-width: 300px;
-}
-
-
-.co-container{
-    color: white;
-    margin-top: 40px;
 }
 
 .co-table{
@@ -585,14 +577,12 @@ border: none;
 
     }
 
-    
-  
 }
 
 @media (max-width:1300px){
     nav{
         width: 100%;
-        margin-top: 60px;
+        margin-top: 30px;
         left: 0px;
         position: absolute;
         top: 90px;
