@@ -129,6 +129,10 @@ footer{
     align-items: center;
 }
 
+.div-mostpopular-movies{
+    margin-bottom: 20px;
+}
+
 .h1-mostpopular,.h1-newreleases,.list-of-videos-h2{
     margin-left: 20px;
     margin-right: 20px;
@@ -149,6 +153,22 @@ footer{
 
 .movie-title{
     color: white;
+}
+
+.movie-title-once{
+    font-size: 21px;
+    text-align: center;
+    color: white;   
+}
+.div-movie-title-once{
+    display:flex;
+    background-color:hsl(244, 55%, 41%);
+    justify-content: center;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: -15px;
+    height: 68px;
+
 }
 
 .movie{
