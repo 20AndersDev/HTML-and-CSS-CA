@@ -207,7 +207,7 @@ footer{
 
 /* Sign Up Page, login page and contact page */
 
-.login-div-logo,.signup-div-logo,.login-section,.login-div-input,.login-div-h3,.signup-form-section,.signup-div-button,.signup-div-h3,.login-div-h3,.contact-div,.su-but{
+.login-div-logo,.signup-div-logo,.login-section,.login-div-input,.login-div-h3,.signup-form-section,.signup-div-button,.signup-div-h2,.login-div-h3,.contact-div,.su-but{
     display: flex;
     justify-content: center;
     width: 100%;
