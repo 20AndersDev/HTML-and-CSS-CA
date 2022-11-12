@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
-*{
-    font-family: 'Oswald', sans-serif;
-    color: white;
-    box-sizing: border-box;
+@font-face {
+    font-family: "Oswald";
+    src: url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 }
 
 body{
-    margin: 0;
-    padding: 0;
     background-color: #0F0B1C;
+    box-sizing: border-box;
+    font-family: "Oswald",Arial, Helvetica, sans-serif;
+    margin: 0;
     overflow-x: hidden;
-
+    padding: 0;
+    
 }
 
 header{
@@ -29,7 +29,8 @@ nav,#check-menu{
 }
 
 a{
-    text-decoration: none
+    text-decoration: none;
+    color: white;
 }
 
 a:active{
@@ -211,6 +212,9 @@ footer{
     justify-content: center;
     width: 100%;
     margin-top:10px;
+    color: white;
+   
+
 }
 
 
@@ -262,6 +266,7 @@ footer{
 }
 
 .signup-button,.login-button{
+    color: white;
     background-color: rgba(111, 180, 111, 0.986);
     border-radius: 10px;
     padding: 10px;
