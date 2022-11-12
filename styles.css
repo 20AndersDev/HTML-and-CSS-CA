@@ -136,7 +136,7 @@ footer{
 
 .div-movie-title{
     display:flex;
-    background-color: #7569FF;
+    background-color:hsl(244, 55%, 41%);
     justify-content: center;
     width: 300px;
     margin-left: 10px;
