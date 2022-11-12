@@ -554,7 +554,7 @@ border: none;
         background-color: #1A0F3F;
         padding: 20px;
     }
-    .section-mostpopular-movies,.section-newreleases-movies,.section-list-of-vidoes-movies{
+    .section-mostpopular-movies,.section-newreleases-movies,.div-list-of-vidoes-movies{
         display: flex;
         overflow-x: auto;
         overflow-y: hidden;
