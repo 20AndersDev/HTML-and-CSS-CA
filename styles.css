@@ -68,7 +68,7 @@ footer{
     padding: 15px;
     width: 190px;
     margin-left: 20px;
-    background-color:hsl(244, 60%, 68%);
+    background-color:hsl(244, 55%, 41%);
     border-radius: 20px;
     border: none;
     text-align: center;
@@ -549,14 +549,14 @@ border: none;
         margin-top: 30px;
         left: 0px;
         position: absolute;
-        top: 90px;
+        top: 85px;
     }
     .nav-button{
         display: block;
         width: 100%;
         border-radius: 0%;
         margin: 0px;
-        background-color: #1A0F3F;
+        background-color:hsl(244, 55%, 41%);
         padding: 20px;
     }
     .div-mostpopular-movies,.div-newreleases-movies,.div-list-of-vidoes-movies{
