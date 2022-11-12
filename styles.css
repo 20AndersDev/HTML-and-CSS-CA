@@ -359,7 +359,7 @@ border: none;
     width: 100%;
 }
 
-.productpage-buybutton,.account-button,.checkout-button-purchase{
+.productpage-buybutton,.account-button,.checkout-button-purchase,.checkoutsuccess-button-complete{
     justify-content: center;
     width: 100%;
     max-width: 300px;
