@@ -133,7 +133,7 @@ footer{
     margin-bottom: 20px;
 }
 
-.h1-mostpopular,.h1-newreleases,.list-of-videos-h2{
+.h1-mostpopular,.h1-newreleases,.list-of-videos-h1{
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -313,7 +313,7 @@ display: flex;
 color: white;
 padding: 15px;
 width: 160px;
-background-color:#7569FF;
+background-color:#4b3ce9;
 border-radius: 15px;
 border: none;
 }
@@ -321,14 +321,14 @@ border: none;
 .ul-genre-menu{
     position: absolute;
     display: none;
-    left: 125px;
-    top: 180px
+    left: 210px;
+    top: 195px
 
 }
 .genre-menu-li{
     display: flex;
     justify-content: center;
-    background-color: #3e2985;
+    background-color:hsl(244, 55%, 41%);
     width:160px;
     border-radius: 15px;
     border: none;
