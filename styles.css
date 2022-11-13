@@ -266,9 +266,9 @@ footer{
 
 .contact-message{
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     padding-bottom: 100px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 5px;
     color: #0F0B1C;
 }
@@ -297,7 +297,7 @@ footer{
     text-align: center;
 }
 
-.signup-h1,.login-h1,.con-title,.con-par,.signup-div-h3,.login-h3{
+.signup-h1,.login-h1,.con-title,.con-h2,.signup-div-h3,.login-h3{
     width: 100%;
     display: flex;
     color: white;
