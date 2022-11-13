@@ -36,6 +36,8 @@ The last pages i made was contact, about, account, productpage, chekcout and che
 
 When i was done with all the pages, i looked over the code i have written and undestood quickly that i needed to make more descriptive tags na dtidy up the CSS code. i went over all the pages again and made sure that if another developer was going to make changes on the code it would be easy to understand.
 
+I have chekced every site trough the Markup validation and WAVE tools
+
 overall i am quite happy with the result and i think i made a quite similar website to the prototype
 
 ### Known errors
