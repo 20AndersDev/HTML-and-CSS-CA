@@ -61,18 +61,6 @@ footer{
 }
 
 /* Header elements */
-.nav-button{
-    display: block;
-    color: white;
-    padding: 15px;
-    width: 190px;
-    margin-left: 20px;
-    background-color:hsl(244, 55%, 41%);
-    border-radius: 20px;
-    border: none;
-    text-align: center;
-    
-}
 
 .nav-button:hover{
     cursor: pointer;
@@ -114,18 +102,20 @@ footer{
 
 /* home page and also movie divs design*/
 
-.section-mostpopular-movies,.section-newreleases-movies,.section-list-of-vidoes-movies{
+.div-mostpopular-movies,.div-newreleases-movies,.div-list-of-vidoes-movies{
     display:block;
     margin-bottom: 30px;
     margin-top: 30px;
     width: 100%;
 }
 
-.div-mostpopular-title,.div-newreleases-title,.div-list-of-vidoes{
+.div-mostpopular-title,.div-newreleases-title,.div-list-of-vidoes,.div-list-of-videos{
     display: flex;
     background-color: #1A0F3F;
     color: white;
-    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .div-mostpopular-movies{
@@ -133,8 +123,12 @@ footer{
 }
 
 .h1-mostpopular,.h1-newreleases,.list-of-videos-h1{
+    width: 100%;
+    max-width: 300px;
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 20px;
+    color: white;
 }
 
 .div-movie-title{
@@ -297,7 +291,7 @@ footer{
     text-align: center;
 }
 
-.signup-h1,.login-h1,.con-title,.con-h2,.signup-div-h3,.login-h3{
+.signup-h1,.login-h1,.con-title,.con-h2,.signup-div-h3,.login-h3,.login-h2{
     width: 100%;
     display: flex;
     color: white;
@@ -310,38 +304,42 @@ footer{
 justify-content: center;
 display: flex;
 color: white;
-padding: 15px;
-width: 160px;
+width: 100%;
 background-color:#4b3ce9;
 border-radius: 15px;
 border: none;
+padding: 15px;
 }
 
-.ul-genre-menu{
-    position: absolute;
-    display: none;
-    left: 210px;
-    top: 195px
 
-}
-.genre-menu-li{
-    display: flex;
-    justify-content: center;
-    background-color:hsl(244, 55%, 41%);
-    width:160px;
-    border-radius: 15px;
-    border: none;
-    padding: 15px;
-
-}
-
-#genre-menu{
+#genre-menu,.ul-genre-menu{
     display: none;
 }
 
 #genre-menu:checked ~ .ul-genre-menu{
     display: block;
 }
+
+.ul-genre-menu{
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    top: 225px;
+    padding: 0px;
+    background-color:hsl(244, 55%, 41%);
+}
+
+.genre-menu-li{
+    justify-content: center;
+    display: block;
+    width: 100%;
+    border-radius: 0%;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
 
 
 
@@ -555,10 +553,18 @@ border: none;
     nav {
         display: block;
     }
-    
+
     .nav-button{
         display: inline-block;
-
+        color: white;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        width: 190px;
+        margin-left: 20px;
+        background-color:hsl(244, 55%, 41%);
+        border-radius: 20px;
+        text-align: center;
+        
     }
 
 }
@@ -566,20 +572,22 @@ border: none;
 @media (max-width:1300px){
     nav{
         width: 100%;
-        margin-top: 30px;
         left: 0px;
         position: absolute;
-        top: 85px;
+        top: 115px;
+        background-color:hsl(244, 55%, 41%);
     }
     .nav-button{
         display: block;
         width: 100%;
         border-radius: 0%;
-        margin: 0px;
-        background-color:hsl(244, 55%, 41%);
-        padding: 20px;
+        margin: 0%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+
     }
-    .div-mostpopular-movies,.div-newreleases-movies,.div-list-of-vidoes-movies{
+    .div-mostpopular-movies,.div-newreleases-movies,.div-list-of-videos-movies{
         display: flex;
         overflow-x: auto;
         overflow-y: hidden;
@@ -589,6 +597,9 @@ border: none;
     .nav-hamburger-menu{
         display: flex;
     }
+
+    
+    
 }
 
 
