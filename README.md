@@ -17,6 +17,21 @@ Mobile View: https://www.figma.com/proto/lK3O3QMJ2LPRkoVL6shaKU/2022-09-25_desig
 
 The HTML and CSS website is also published to netlify: https://sprightly-gelato-a3a4ee.netlify.app/
 
+Note that for a better experience for mobile and tablet users, i made it so the movie sections is swipable by making the sections overflow off the screen. For desktop users all the movies are available on the screen without the need for horizontal scroll.
+
+### How i worked on the website
+
+i knew near to nothing about HTML and CSS prior to starting this course assignment. my strategy fo rthis CA was the same as Deisgn 1 CA. Try and fail.
+i decided i will start with the CA and jump backt the modules afterwards when i needed to.
+
+### Info
+
+For the inputs,instead of using label i decided to use placeholder. This way it looks more clean and instructs the user what information should be typed in the inputs. i am aware when testing this in a WCAG checker this will cause an error to appear
+
+in the header i have used some icons as a symbol for navigation, for instance the Hamburger menu and the account icon. WCAG checker will mark these as empty strings
+
+reduntant links: i have linked every product to go to the same product page.
+
 ### References
 
 - Code
