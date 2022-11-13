@@ -9,7 +9,7 @@ The HTML and CSS CA was about making a website from the prototype we made from t
 
 Links:
 
-Link to the Design 1 prototype (complete prtotype): https://www.figma.com/file/lK3O3QMJ2LPRkoVL6shaKU/2022-09-25_design1_ca_Anders-Nes_fp?node-id=0%3A1
+Link to the Design 1 prototype (complete prototype): https://www.figma.com/file/lK3O3QMJ2LPRkoVL6shaKU/2022-09-25_design1_ca_Anders-Nes_fp?node-id=0%3A1
 
 Dekstop view: https://www.figma.com/proto/lK3O3QMJ2LPRkoVL6shaKU/2022-09-25_design1_ca_Anders-Nes_fp?node-id=1%3A2&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A2
 
