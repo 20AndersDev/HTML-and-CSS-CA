@@ -19,7 +19,13 @@ The HTML and CSS website is also published to netlify: https://sprightly-gelato-
 
 Note that for a better experience for mobile and tablet users, i made it so the movie sections is swipeable by making the sections overflow off the screen. For desktop users all the movies are available on the screen without the need for horizontal scroll.
 
+### Known errors
 
+- For the inputs,instead of using label i decided to use placeholder. This way it looks more clean and instructs the user what information should be typed in the inputs. i am aware when testing this in a WCAG checker this will cause an error to appear
+
+- In the header i have used some icons as a symbol for navigation, for instance the Hamburger menu and the account icon. WCAG checker will mark these as empty links
+
+- Reduntant links: i have linked every product to go to the same product page
 
 ### References
 
