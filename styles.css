@@ -11,7 +11,6 @@ body{
     margin: 0;
     overflow-x: hidden;
     padding: 0;
-    
 }
 
 header{
@@ -461,7 +460,7 @@ border: none;
  color: white;
  width: 100%;
  max-width: 200px;
- background-color:#4B945F ;
+ background-color:#125a26;
  border-radius: 10px;
  padding: 10px;
  margin-top: 30px;
@@ -504,7 +503,6 @@ border: none;
     justify-content: center;
     display: flex;
     width: 100%;
-    border-color: #4B945F;
 }
 
 #account-icon{
@@ -535,11 +533,12 @@ border: none;
     padding-bottom: 60px;
     border-radius: 20px;
     background-color: #1A0F3F;
+    color: white;
 }
 .checkoutsuccsess-button-complete{
     width: 100%;
     max-width: 500px;
-    background-color:#4B945F ;
+    background-color:#125a26;
     border-radius: 10px;
     padding: 25px;
     margin-top: 30px;
@@ -548,6 +547,7 @@ border: none;
 .checkoutsuccsess-p{
     text-align:center;
     width: 70%;
+    color: white;
 }
 
 
