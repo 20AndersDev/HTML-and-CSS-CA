@@ -10,6 +10,7 @@ body{
     font-family: "Oswald",Arial, Helvetica, sans-serif;
     margin: 0;
     overflow-x: hidden;
+    overflow-y: auto;
     padding: 0;
 }
 
@@ -102,14 +103,15 @@ footer{
 
 /* home page and also movie divs design*/
 
-.div-mostpopular-movies,.div-newreleases-movies,.div-list-of-vidoes-movies{
+.div-mostpopular-movies,.div-newrelease-movies,.div-list-of-vidoes-movies{
     display:flex;
-    overflow-x: auto;
+    overflow-x: hidden;
     margin-bottom: 30px;
-    margin-top: 30px;
     width: 100%;
+    margin-top: 30px;
     justify-content: space-between;
     gap: 30px;
+    position: relative;
 }
 
 .div-mostpopular-title,.div-newreleases-title,.div-list-of-vidoes,.div-list-of-videos{
@@ -142,36 +144,20 @@ footer{
     margin-left: 10px;
     margin-top: -15px;
     font-size: 13px;
+    border-radius: 0px 0px 10px 10px;
 
 }
-.div-movie{
-    display: inline-block;
-}
+
 
 .movie-title{
     color: white;
-}
-
-.movie-title-once{
-    font-size: 21px;
-    text-align: center;
-    color: white;   
-}
-.div-movie-title-once{
-    display:flex;
-    background-color:hsl(244, 55%, 41%);
-    justify-content: center;
-    width: 300px;
-    margin-left: 10px;
-    margin-top: -15px;
-    height: 68px;
-
 }
 
 .movie{
     height: 400px;
     margin: 10px;
     width: 300px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 /* About Page */
@@ -552,6 +538,12 @@ padding: 15px;
     color: white;
 }
 
+.scroll-left,.scroll-right{
+    font-size: 30px;
+
+}
+
+
 
 @media (min-width:1300px){
     nav {
@@ -591,10 +583,11 @@ padding: 15px;
         text-align: center;
 
     }
-    .div-mostpopular-movies,.div-newreleases-movies,.div-list-of-videos-movies{
+    .div-mostpopular-movies,.div-newrelease-movies,.div-list-of-videos-movies{
         display: flex;
         overflow-x: auto;
         overflow-y: hidden;
+        position: relative;
 
     }
 
