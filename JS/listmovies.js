@@ -1,13 +1,13 @@
-import { movies } from "/JS/movies.JS";
+import { movies } from "/JS/movies.js";
 
 const mostPopularMovies = document.querySelector('.div-mostpopular-movies');
 
-movies.forEach(movie => {
+movies.forEach((movie, index) => {
   const movieDiv = document.createElement('div');
   movieDiv.classList.add('div-movie');
 
   const movieLink = document.createElement('a');
-  movieLink.href = 'productpage.html';
+  movieLink.href = `productpage.html?id=${index}`;
 
   const movieImg = document.createElement('img');
   movieImg.src = movie.imageSrc;
@@ -30,17 +30,16 @@ movies.forEach(movie => {
   mostPopularMovies.appendChild(movieDiv);
 });
 
-
 const newReleaseMovies = movies.filter(movie => movie.newRelease).reverse();
 
 const divNewReleaseMovies = document.querySelector('.div-newrelease-movies');
 
-newReleaseMovies.forEach(movie => {
+newReleaseMovies.forEach((movie, index) => {
   const movieDiv = document.createElement('div');
   movieDiv.classList.add('div-movie');
 
   const movieLink = document.createElement('a');
-  movieLink.href = 'productpage.html';
+  movieLink.href = `productpage.html?id=${movies.length - 1 - index}`;
 
   const movieImg = document.createElement('img');
   movieImg.src = movie.imageSrc;
@@ -62,5 +61,3 @@ newReleaseMovies.forEach(movie => {
 
   divNewReleaseMovies.appendChild(movieDiv);
 });
-
-
