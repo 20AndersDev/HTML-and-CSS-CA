@@ -7,7 +7,7 @@ const movie = movies[movieId];
 
 const movieImg = document.querySelector('.movie-image');
 movieImg.src = movie.imageSrc;
-movieImg.alt = `Movie poster - ${movie.title}`;
+
 
 const movieTitle = document.querySelector('.movie-title');
 movieTitle.textContent = movie.title;

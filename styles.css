@@ -353,22 +353,31 @@ padding: 15px;
     justify-content: center;
 }
 
-.productpage-product-img{
+#movie-details{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.movie-image{
     width: 80%;
     max-width: 400px;
 
 }
 
-.productpage-div-info{
-    display: block;
+
+
+.div-product-movie,.productpage-div-buybutton,.productpage-div-price,.div-product-title,.productpage-a{
+    display: flex;
+    justify-content: center;
     width: 100%;
     color: white;
 }
 
-.productpage-div-p,.productpage-div-buybutton,.productpage-div-price,.productpage-div-h1,.productpage-a{
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.movie-description{
+    width: 50%;
+    text-align: center;
 }
 
 .productpage-buybutton,.account-button,.checkout-button-purchase,.checkoutsuccess-button-complete{
@@ -585,7 +594,7 @@ padding: 15px;
     }
     .div-mostpopular-movies,.div-newrelease-movies,.div-list-of-videos-movies{
         display: flex;
-        overflow-x: auto;
+        overflow-x: hidden;
         overflow-y: hidden;
         position: relative;
 

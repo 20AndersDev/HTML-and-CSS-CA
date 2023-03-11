@@ -4,7 +4,7 @@ const scrollRightBtn = document.querySelector('.scroll-right');
 
 scrollLeftBtn.addEventListener('click', () => {
   mostPopularMoviesDiv.scroll({
-    left: mostPopularMoviesDiv.scrollLeft - 300,
+    left: mostPopularMoviesDiv.scrollLeft - 600,
     behavior: 'smooth'
   });
   updateScrollButtonsVisibility();
@@ -12,7 +12,7 @@ scrollLeftBtn.addEventListener('click', () => {
 
 scrollRightBtn.addEventListener('click', () => {
   mostPopularMoviesDiv.scroll({
-    left: mostPopularMoviesDiv.scrollLeft + 300,
+    left: mostPopularMoviesDiv.scrollLeft + 600,
     behavior: 'smooth'
   });
   updateScrollButtonsVisibility();
