@@ -1,6 +1,7 @@
 import { movies } from "/JS/movies.js";
 
 const mostPopularMovies = document.querySelector('.div-mostpopular-movies');
+const divNewReleaseMovies = document.querySelector('.div-newrelease-movies');
 
 movies.forEach((movie, index) => {
   const movieDiv = document.createElement('div');
@@ -32,8 +33,6 @@ movies.forEach((movie, index) => {
 
 const newReleaseMovies = movies.filter(movie => movie.newRelease).reverse();
 
-const divNewReleaseMovies = document.querySelector('.div-newrelease-movies');
-
 newReleaseMovies.forEach((movie, index) => {
   const movieDiv = document.createElement('div');
   movieDiv.classList.add('div-movie');
@@ -61,3 +60,4 @@ newReleaseMovies.forEach((movie, index) => {
 
   divNewReleaseMovies.appendChild(movieDiv);
 });
+

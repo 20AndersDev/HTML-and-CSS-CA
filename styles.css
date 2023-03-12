@@ -103,16 +103,33 @@ footer{
 
 /* home page and also movie divs design*/
 
-.div-mostpopular-movies,.div-newrelease-movies,.div-list-of-vidoes-movies{
+.div-mostpopular-movies,.div-newrelease-movies,.div-list-of-vidoes-movies,.div-list-of-videos-movies{
     display:flex;
     overflow-x: hidden;
     margin-bottom: 30px;
     width: 100%;
     margin-top: 30px;
-    justify-content: space-between;
     gap: 30px;
     position: relative;
+    height: 525px;
+    align-items: center;
 }
+
+
+.div-movie {
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    border-radius: 10px 10px 0px 0px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.div-movie:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    border-radius: 10px 10px 0px 0px;
+}
+
 
 .div-mostpopular-title,.div-newreleases-title,.div-list-of-vidoes,.div-list-of-videos{
     display: flex;
@@ -547,11 +564,22 @@ padding: 15px;
     color: white;
 }
 
-.scroll-left,.scroll-right{
+.pop-scroll-right,.new-scroll-right,.list-scroll-right{
     font-size: 30px;
-
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4b3ce9;
 }
 
+.new-scroll-left,.pop-scroll-left,.list-scroll-left{
+    font-size: 30px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    background-color: #1A0F3F;
+
+}
 
 
 @media (min-width:1300px){
@@ -594,7 +622,7 @@ padding: 15px;
     }
     .div-mostpopular-movies,.div-newrelease-movies,.div-list-of-videos-movies{
         display: flex;
-        overflow-x: hidden;
+        overflow-x: auto;
         overflow-y: hidden;
         position: relative;
 
