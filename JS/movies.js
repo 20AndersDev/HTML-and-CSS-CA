@@ -5,6 +5,7 @@ export const movies = [
         description: `Lawman Luke Hobbs (Dwayne "The Rock" Johnson) and outcast Deckard Shaw (Jason Statham) form an unlikely alliance when a cyber-genetically enhanced villain threatens the future of humanity.`,
         mostPopular: true,
         newRelease: true,
+        action: true,
     },
     {
         imageSrc: "/Images/assets/Square_Eyes_Cover2.jpeg",
@@ -12,6 +13,7 @@ export const movies = [
         description: `The crypto-zoological agency Monarch faces off against a battery of god-sized monsters, including the mighty Godzilla, who collides with Mothra, Rodan, and his ultimate nemesis, the three-headed King Ghidorah.`,
         mostPopular: true,
         newRelease: true,
+        action: true,
     },
     {
         imageSrc: "/Images/assets/Square_Eyes_Cover3.jpeg",
@@ -47,6 +49,7 @@ export const movies = [
         description: `When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.`,
         mostPopular: true,
         newRelease: true,
+        action: true,
     },
     {
         imageSrc: "/Images/assets/Square_Eyes_Cover8.jpeg",

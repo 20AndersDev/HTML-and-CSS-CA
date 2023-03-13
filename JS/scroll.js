@@ -1,12 +1,10 @@
 const mostPopularMoviesDiv = document.querySelector('.div-mostpopular-movies');
 const newMoviesDiv = document.querySelector('.div-newrelease-movies');
-const listMoviesDiv = document.querySelector('.div-list-of-videos-movies');
 const scrollLeftBtn = document.querySelector('.pop-scroll-left');
 const scrollRightBtn = document.querySelector('.pop-scroll-right');
 const newScrollLeftBtn = document.querySelector('.new-scroll-right');
 const newScrollRightBtn = document.querySelector('.new-scroll-left');
-const listScrollLeftBtn = document.querySelector('.list-scroll-left');
-const listScrollRightBtn = document.querySelector('.list-scroll-right');
+
 
 
 
