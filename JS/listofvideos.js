@@ -3,14 +3,16 @@ import { movies } from "/JS/movies.js";
 const listOfVideos = document.querySelector('.div-list-of-videos-movies');
 const actionButton = document.querySelector('#action');
 const allButton = document.querySelector('#all');
+const dramaButton = document.querySelector('#drama');
+const comedyButton = document.querySelector('#comedy');
 const ulGenreMenu = document.querySelector('.ul-genre-menu');
 
-function createMovieMarkup(movie, index) {
+function createMovieMarkup(movie) {
   const movieDiv = document.createElement('div');
   movieDiv.classList.add('div-movie');
 
   const movieLink = document.createElement('a');
-  movieLink.href = `productpage.html?id=${index}`;
+  movieLink.href = `productpage.html?id=${movie.id}`;
 
   const movieImg = document.createElement('img');
   movieImg.src = movie.imageSrc;
@@ -35,8 +37,8 @@ function createMovieMarkup(movie, index) {
 
 function displayMovies(moviesArray, filterFunction = movie => true) {
   listOfVideos.innerHTML = '';
-  moviesArray.filter(filterFunction).forEach((movie, index) => {
-    const movieMarkup = createMovieMarkup(movie, index);
+  moviesArray.filter(filterFunction).forEach(movie => {
+    const movieMarkup = createMovieMarkup(movie);
     listOfVideos.appendChild(movieMarkup);
   });
 }
@@ -52,5 +54,15 @@ actionButton.addEventListener('click', () => {
 
 allButton.addEventListener('click', () => {
   displayMovies(movies);
+  ulGenreMenu.style.display = 'none';
+});
+
+dramaButton.addEventListener('click', () => {
+  displayMovies(movies, movie => movie.drama);
+  ulGenreMenu.style.display = 'none';
+});
+
+comedyButton.addEventListener('click', () => {
+  displayMovies(movies, movie => movie.comedy);
   ulGenreMenu.style.display = 'none';
 });
