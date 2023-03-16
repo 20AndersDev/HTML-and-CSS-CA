@@ -285,9 +285,22 @@ footer{
 
 .signup-div-input,.login-div-button,.contact-div-input{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     margin-top: 10px;
+}
+
+.div-form-success{
+    justify-content: center;
+    display: flex;
+    color: #00e641;
+    font-size: 50px;
+    display: none;
+}
+
+#form-success{
+    text-align: center;
 }
 
 .signup-button,.login-button{
@@ -309,6 +322,14 @@ footer{
     color: white;
     justify-content:center;
     text-align: center;
+}
+
+
+#name-error,#subject-error,#email-error{
+    color: red;
+    justify-content: center;
+    display: flex;
+    display: none;
 }
 
 /* List of videos */

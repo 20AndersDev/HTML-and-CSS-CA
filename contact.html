@@ -36,26 +36,38 @@
         <main>
           <h1 class="con-title" > Experiencing issues?</h1>
           <h2 class="con-h2"> Let us know by filling the form below </h2>
-          <div class="contact-div"> 
-            <div class="contact-container">
-              <div class="contact-div-input">
-                <label for="email"></label>
-                <input class="contact" type="text" placeholder="Email" name="email" id="email">
-              </div>
-              <div class="contact-div-input">
-                <label for="name"></label>
-                <input class="contact" type="text" placeholder="Full Name" name="Full Name" id="name">
-              </div>
-              <div class="contact-div-input">
-                <label for="message"></label>
-                <input class="contact-message" type="text" placeholder="Type your message here..." name="message" id="message">
-              </div>
-              <div class="su-but">
-                <button type="submit" class="signup-button"> Submit </button>
-              </div>
-            </div>        
-          </div>
+          <form id="formContact">
+            <div class="contact-div"> 
+              <div class="contact-container">
+                <div class="contact-div-input">
+                  <label for="email"></label>
+                  <input class="contact" type="email" placeholder="Enter your email address" name="email2" id="email" >
+                  <div class="error" id="email-error">Please enter a valid email address</div>
+                </div>
+                <div class="contact-div-input">
+                  <label for="name"></label>
+                  <input class="contact" type="text" placeholder="Enter your full name" name="Full Name" id="name" >
+                  <div class="error" id="name-error">Please enter your name</div>
+                </div>
+                <div class="contact-div-input">
+                  <label for="message"></label>
+                  <input class="contact-message" placeholder="Type your message here..." name="message" id="subject" rows="5" minlength="10" ></input>
+                  <div class="error" id="subject-error">Please enter a message that is at least 10 characters long</div>
+                </div>
+                <div class="su-but">
+                  <button type="submit" class="signup-button" id="form-submit">Submit</button>
+                </div>
+
+                <div class="div-form-success">
+                  <div id="form-success"> Form succsesfully submitted</div>
+                </div>
+
+              </div>        
+            </div>
+          </form>
           <div class="div-push-footer"></div>
+          </main>
+          <script src="/JS/formval.js"></script>
         </main>
         <footer>
           <h3> SquareEyes Copyright 2015-2022 &copy;</h3>
