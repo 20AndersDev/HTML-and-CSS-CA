@@ -173,6 +173,7 @@ footer{
 
 .movie-title{
     color: white;
+    text-align: center;
 }
 
 .movie{
@@ -475,28 +476,27 @@ padding: 20px;
 
 .checkout-div-productinfo{
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
 }
 
-.chekcoutpage-div-img{
+.div-checkout-p,.chekcoutpage-div-img{
     display: flex;
     justify-content: center;
     width: 100%;
-    max-width: 400px;
-
+ 
 }
 
-.checkout-product-img{
-    width: 300px;
-
+#checkout-product-img{
+display: flex;
+max-width: 300px;
+width: 100%;
 }
 
 .checkout-div-price{
     display: flex;
     justify-content: center;
-    width: 100%;
     margin-top: 50px;
 }
 
@@ -506,7 +506,7 @@ padding: 20px;
  max-width: 200px;
  background-color:#125a26;
  border-radius: 10px;
- padding: 10px;
+ padding: 30px;
  margin-top: 30px;
 }
 

@@ -14,3 +14,10 @@ movieTitle.textContent = movie.title;
 
 const movieDescription = document.querySelector('.movie-description');
 movieDescription.textContent = movie.description;
+
+const buyButton = document.querySelector('.productpage-div-buybutton');
+const anchorElement = document.createElement('a');
+anchorElement.href = `/checkout.html?id=${movieId}`;
+anchorElement.classList.add('productpage-buybutton');
+anchorElement.textContent = 'Buy now';
+buyButton.appendChild(anchorElement);
