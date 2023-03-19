@@ -526,6 +526,11 @@ width: 100%;
     
 }
 
+.h2-account{
+  text-align: center;  
+}
+
+
 .account-div-input,.account-div-button{
     justify-content: center;
     display: flex;
