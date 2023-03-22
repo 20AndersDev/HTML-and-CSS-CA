@@ -45,7 +45,7 @@ function updateScrollButtonsVisibility(scrollLeft, scrollWidth, clientWidth, lef
 //new movies scroll section
 
 newScrollLeftBtn.addEventListener('click', () => {
-  const targetScrollLeft = newMoviesDiv.scrollLeft + 400;
+  const targetScrollLeft = newMoviesDiv.scrollLeft + 600;
   newMoviesDiv.scroll({
     left: targetScrollLeft,
     behavior: 'smooth'
@@ -54,7 +54,7 @@ newScrollLeftBtn.addEventListener('click', () => {
 });
 
 newScrollRightBtn.addEventListener('click', () => {
-  const targetScrollLeft = newMoviesDiv.scrollLeft - 400;
+  const targetScrollLeft = newMoviesDiv.scrollLeft - 600;
   newMoviesDiv.scroll({
     left: targetScrollLeft,
     behavior: 'smooth'

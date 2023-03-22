@@ -599,22 +599,41 @@ width: 100%;
     color: white;
 }
 
-.pop-scroll-right,.new-scroll-right,.list-scroll-right{
+
+.div-mostpopular-movies,.div-newrelease-movies,.div-list-of-videos-movies{
+    margin-left: 70px;
+    margin-right: 70px;
+    
+}
+
+  .div-pop-mov,.div-new-mov,.div-list-mov{
+    position: relative;
+
+  }
+  
+  .pop-scroll-right, .pop-scroll-left,.new-scroll-left,.new-scroll-right,.list-scroll-left,.list-scroll-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     font-size: 30px;
     width: 150px;
     border-radius: 10px;
     color: white;
+    z-index: 2;
+    width: 70px;
+    height: 150px;
+  }
+  
+  .pop-scroll-right,.new-scroll-right,.list-scroll-right {
+    right: 0;
     background-color: #4b3ce9;
-}
-
-.new-scroll-left,.pop-scroll-left,.list-scroll-left{
-    font-size: 30px;
-    width: 150px;
-    border-radius: 10px;
-    color: white;
+  }
+  
+  .pop-scroll-left,.new-scroll-left,.list-scroll-left {
+    left: 0;
     background-color: #1A0F3F;
+  }
 
-}
 
 
 @media (min-width:1300px){
@@ -671,7 +690,13 @@ width: 100%;
     .nav-hamburger-menu{
         display: flex;
     }
+    .pop-scroll-right, .pop-scroll-left,.new-scroll-left,.new-scroll-right,.list-scroll-left,.list-scroll-right{
+        display: none;
+    }
 
+    .div-mostpopular-movies,.div-newrelease-movies,.div-list-of-videos-movies{
+        margin: 0px;
+    }
     
     
     
