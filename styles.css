@@ -232,8 +232,7 @@ footer{
 }
 
 /* Sign Up Page, login page and contact page */
-
-.login-div-logo,.signup-div-logo,.login-section,.login-div-input,.login-div-h3,.signup-form-section,.signup-div-button,.signup-div-h2,.login-div-h3,.contact-div,.su-but{
+.contact-div,.su-but{
     display: flex;
     justify-content: center;
     width: 100%;
@@ -244,14 +243,8 @@ footer{
 }
 
 
-.signup-logo{
-    background-color: #7569FF;
-    width: 90%;
-    max-width: 400px;
-    border-radius: 20px;
-    padding: 10px;
-}
-.signup-container,.login-container,.contact-container{
+
+.contact-container{
     max-width: 600px;
     width: 100%;
     background-color: #7569FF;
@@ -261,7 +254,7 @@ footer{
 }
 
 
-.login-input,.signup-input,.contact{
+.contact{
     width: 100%;
     max-width: 400px;
     border-radius: 10px;
@@ -284,7 +277,7 @@ footer{
     color: #0F0B1C;
 }
 
-.signup-div-input,.login-div-button,.contact-div-input{
+.contact-div-input{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -304,7 +297,7 @@ footer{
     text-align: center;
 }
 
-.signup-button,.login-button{
+.signup-button{
     color: white;
     background-color: rgba(111, 180, 111, 0.986);
     border-radius: 10px;
