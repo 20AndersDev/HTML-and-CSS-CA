@@ -1,62 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="description" content="SquareEyes - Create your account here to start watching your favourite movies with friends and family">
+        <meta name="description" content=" SquareEyes - The best place for every movie lovers, find your favourite movies here">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>SquareEyes | Sign in</title>
+        <meta name="viewport" content="width=, initial-scale=1.0">
         <link href="styles.css" rel="stylesheet">
+        <title>Square Eyes | Home </title>
+        <script src="https://kit.fontawesome.com/eed746e6fc.js" crossorigin="anonymous"></script>
         <!-- Hotjar Tracking Code for my site -->
         <script>
-          (function(h,o,t,j,a,r){
-              h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-              h._hjSettings={hjid:3393356,hjsv:6};
-              a=o.getElementsByTagName('head')[0];
-              r=o.createElement('script');r.async=1;
-              r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-              a.appendChild(r);
-          })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:3393356,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
         </script>
     </head>
     <body>
-      <main>
-        <div class="signup-div-logo">
-          <img src="images/SquareEyes_Logo.png" class="signup-logo" alt="SquareEyes logo">
-        </div> 
-        <section class="signup-form-section"> 
-          <div class="signup-container">
-            <h1 class="signup-h1" > Create your SquareEyes account</h1>
-            <div class="su-input"> 
-              <div class="signup-div-input">
-                <label for="email"> </label>
-                <input type="email" class="signup-input" placeholder="Email" id="email">
-              </div>
-              <div class="signup-div-input">
-                <label for="name"> </label>
-                <input type="text" class="signup-input" placeholder="Full Name" id="name">
-              </div>
-              <div class="signup-div-input">
-                <label for="password"></label>
-                <input type="password" class="signup-input" placeholder="Password" id="password">
-              </div>
-              <div class="signup-div-input">
-                <label for="repeatpsw"></label>
-                <input type="password" class="signup-input" placeholder="Repeat password" id="repeatpsw">
-              </div>
-            </div>   
-            <div class="signup-div-button">
-              <a href="home.html" class="signup-button"> Sign Up </a>
+        <header>
+            <input type="checkbox" id="check-menu">
+            <label for="check-menu" class="nav-hamburger-menu"> <i class="fa-solid fa-bars"></i></label>
+             <a href="home.html"> <img src="images/SquareEyes_Logo.png" class="logo" alt="SquareEyes Logo"></a>
+            <nav>
+              <a  href="home.html" class="nav-button">Home </a> 
+              <a href="list-of-videos.html" class="nav-button">List of Videos </a>                         
+              <a href="contact.html" class="nav-button">Contact </a>
+              <a href="about.html" class="nav-button">About </a>  
+            </nav>
+            <a href="account.html"> <i class="fa-regular fa-user" id="profil"></i></a>
+        </header> 
+        <main>
+            <div class="div-mostpopular-title">
+                <h1 class="h1-mostpopular">Most Popular</h1>   
             </div>
-            <div class="signup-div-h2">
-              <a  href="login.html" class="login-h2"><h2> Already have an account? log in here</h2> </a>
+            
+            <div class="div-pop-mov">
+                <div>
+                    <button class="pop-scroll-left"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="pop-scroll-right"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                     <div class="div-mostpopular-movies">
+                </div>
             </div>
-          </div>
-        </section>
-        <div class="div-push-footer"></div>
-      </main>
-      <footer>
-        <h3> SquareEyes Copyright 2015-2022 &copy;</h3>
-      </footer> 
+            <div class="div-newreleases-title">
+                <h1 class="h1-newreleases">New Releases</h1>
+                
+            </div>
+            <div class="div-new-mov">
+                <div>
+                    <button class="new-scroll-left"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="new-scroll-right"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                    <div class="div-newrelease-movies"> </div>
+            </div>    
+
+            <div class="div-push-footer"></div>
+
+
+            <script src="/JS/listmovies.js" type="module"></script>
+            <script src="/JS/movies.js" type="module"></script>
+            <script src="/JS/scroll.js" type="module"></script>
+        </main>
+        <footer>
+            <h3> SquareEyes Copyright 2015-2022 &copy;</h3>
+        </footer>  
     </body>
 </html>
